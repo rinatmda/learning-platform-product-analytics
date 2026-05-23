@@ -1,7 +1,9 @@
 # Learning Platform Product Analytics
 
 End-to-end analytics project simulating a real-world product analytics workflow for an educational coding platform.
+
 The project reproduces a typical product analytics process by transforming normalized platform events into analytical datasets and interactive dashboards using PostgreSQL and Power BI.
+
 The analysis is based on a locally deployed copy of an educational database provided by Simulative School for Data Analysts as part of its learning resources.
 
 ---
@@ -18,6 +20,7 @@ Main analytical areas:
 - Coding activity analysis
 
 The project simulates a real-world product analytics workflow:
+
 Raw events > analytical marts > BI dashboards > business insights
 
 ---
@@ -75,6 +78,7 @@ Detailed project documentation:
 ### Platform Growth
 
 Platform activity remained extremely low between March 2021 and October 2021.
+
 DAU, WAU and MAU started increasing significantly after October 2021, indicating platform growth and increased user acquisition.
 
 Average engagement metrics:
@@ -95,6 +99,7 @@ Retention decreased substantially over time:
 - D30 = 1.1%
 
 The results indicate strong early churn and very limited long-term engagement.
+
 Only around 10% of users accumulated at least seven active coding days.
 
 ---
@@ -158,7 +163,7 @@ This higher acceptance rate among SQL users may also suggest lower task complexi
 
 ```text
 learning-platform-product-analytics/
-
+¦
 +-- sql/
 ¦   +-- 01_dim_calendar.sql
 ¦   +-- 02_dim_users.sql
@@ -167,18 +172,18 @@ learning-platform-product-analytics/
 ¦   +-- 05_agg_user_retention.sql
 ¦   +-- 06_agg_problem_activity.sql
 ¦   L-- 07_agg_user_learning_behavior.sql
-
+¦
 +-- dashboard/
 ¦   L-- learning_platform_dashboard.pbix
-
+¦
 +-- images/
 ¦   +-- overview.png
 ¦   +-- retention_behavior.png
 ¦   L-- learning_activity.png
-
+¦
 +-- docs/
 ¦   +-- data_model.md
 ¦   L-- metrics_definition.md
-
+¦
 L-- README.md
 ```

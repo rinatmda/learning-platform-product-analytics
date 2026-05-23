@@ -216,7 +216,8 @@ Most frequently used programming language by the user.
 Calculation logic:
 MODE() WITHIN GROUP()
 
-In case of ties, PostgreSQL MODE() behavior is applied.
+Tie handling: 
+PostgreSQL MODE() behavior is applied.
 
 Business meaning:
 Represents user preference.
@@ -257,10 +258,14 @@ New:
 1 active day
 
 Casual:
+```text
 2 active days > P90
+```
 
 Power:
+```text
 > P90 active days
+```
 
 Business meaning:
 Separates users by engagement level.
