@@ -163,27 +163,27 @@ This higher acceptance rate among SQL users may also suggest lower task complexi
 
 ```text
 learning-platform-product-analytics/
-�
-+-- sql/
-�   +-- 01_dim_calendar.sql
-�   +-- 02_dim_users.sql
-�   +-- 03_fact_daily_user_activity.sql
-�   +-- 04_agg_daily_platform_kpis.sql
-�   +-- 05_agg_user_retention.sql
-�   +-- 06_agg_problem_activity.sql
-�   L-- 07_agg_user_learning_behavior.sql
-�
-+-- dashboard/
-�   L-- learning_platform_dashboard.pbix
-�
-+-- images/
-�   +-- overview.png
-�   +-- retention_behavior.png
-�   L-- learning_activity.png
-�
-+-- docs/
-�   +-- data_model.md
-�   L-- metrics_definition.md
-�
-L-- README.md
+│
+├── sql/
+│   ├── 01_dim_calendar.sql
+│   ├── 02_dim_users.sql
+│   ├── 03_fact_daily_user_activity.sql
+│   ├── 04_agg_daily_platform_kpis.sql
+│   ├── 05_agg_user_retention.sql
+│   ├── 06_agg_problem_activity.sql
+│   └── 07_agg_user_learning_behavior.sql
+│
+├── dashboard/
+│   └── learning_platform_dashboard.pbix
+│
+├── images/
+│   ├── overview.png
+│   ├── retention_behavior.png
+│   └── learning_activity.png
+│
+├── docs/
+│   ├── data_model.md
+│   └── metrics_definition.md
+│
+└── README.md
 ```
