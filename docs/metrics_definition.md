@@ -255,16 +255,18 @@ Behavioral user classification. Users active only once are classified as new; hi
 Logic:
 
 New:
+```text
 1 active day
+```
 
 Casual:
 ```text
-2 active days > P90
+2 active days up to P90 threshold
 ```
 
 Power:
 ```text
-> P90 active days
+Above P90 active days
 ```
 
 Business meaning:
